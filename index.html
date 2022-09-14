@@ -5,45 +5,141 @@
         *{
             margin: 0;
             box-sizing: border-box;
+            overflow-x: hidden;
         }
         body{
            background-color: black;
            font-family: Arial, Helvetica, sans-serif;
         }
-        li{
-            color: white;
-            list-style-type: none;
+        .sports-images{
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            margin-top: px;
+            justify-content: space-between ;
+            margin-top: -1rem;
         }
+        .sportspersons{
+           
+            margin-bottom: 1rem;
+          
+            height: 900px;
+            width: 100%;
+            object-fit: cover;
+            /* position: relative; */
+
+        }
+        .title-name{
+            color: white;
+            padding: 19px 37rem 19px 37rem;
+            text-align: center;
+            background-color: rgba(11, 186, 61, 0.908);
+            /* position: fixed; */
+        }
+        
+        
+        .sportsperson-name{
+            color: white;
+            text-align: left;
+            padding-left: 15px;
+           position: absolute;
+           padding-top: 20px;
+        }
+        
+        .achievements{
+            color: white;
+            text-align: left;
+            padding-left: 55rem;
+           position: absolute;
+           padding-top: 35rem;
+        }
+        
+        
     </style>
     
     <title>Document</title>
 </head>
 <body>
-   <li>cricket</li>
-   <ol>
-    <li>Dhoni</li>
-    <li>Virat kohli</li>
-   </ol>
-   <li>Badminton</li>
-   <ol>
-    <li>Saina nehawal</li>
-    <li>PV Sindhu</li>
-   </ol>
-   <li>Soccer</li>
-   <ol>
-    <li>Messi</li>
-    <li>Ronaldo</li>
-   </ol>
-   <li>Kabaddi</li>
-   <ol>
-    <li>Deepak nivas huda</li>
-    <li>sandeep narwal</li>
-   </ol>
-   <li>Chess</li>
-   <ol>
-    <li>Vishy anand</li>
-    <li>Praggananandhaa</li>
-   </ol>
+    <h1 class="title-name">Famous Sports Players</h1>
+   <div class="sports-images">
+    <div>
+        <h1 class="sportsperson-name">MS Dhoni</h1>
+        <p class="achievements">Mahendra Singh Dhoni (listen); born 7 July 1981) is an Indian former professional cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He is a right handed wicket-keeper batsman. He led the team to three ICC trophies including the 2007 ICC World Twenty20, 2011 ICC Cricket World Cup and 2013 ICC Champions Trophy. Under his captaincy, India won the ACC Asia Cup two times, in 2010 and 2016. India also won ICC Test Championship Mace two times in 2010, 2011 and ICC ODI Shield for one time in 2013 under his leadership. He is considered as one of the greatest Captains and Wicket Keeper-Batsmen of all time. Throughout his 15 year long international career, Dhoni has won several awards and accolades</p>
+        
+        <img class="sportspersons" src="./images/MS-dhoni.jpg" alt="">
+        
+    </div>
+    <div class="virat-image">
+        <h1 class="sportsperson-name"> virat Kohli</h1>
+        <p class="achievements" >
+            Virat Kohli born 5 November 1988) is an Indian international cricketer and former captain of the India national cricket team. He plays for Delhi in domestic cricket and Royal Challengers Bangalore in the Indian Premier League as a right-handed batsman. He is often considered one of the best batsmen of his era and is widely regarded as one of the greatest all-format batsmen of all time[4] Between 2013 and 2022, he captained the India cricket team in 213 matches across all three formats. With 40 wins out of 68 matches, Kohli is one of the most successful Indian Test captains.
+
+Kohli made his Test debut in 2011. He reached the number one spot in the ICC rankings for ODI batsmen for the first time in 2013.He has won Man of the Tournament twice at the ICC World Twenty20 (in 2014 and 2016). He also holds the world record of being the fastest to 23,000 international runs.
+        </p>
+        <img class="sportspersons" src="./images/virat.jpg" alt="">
+    </div>
+
+    <div>
+        <h1 class="sportsperson-name"> Saina Nehwal</h1>
+        <p class="achievements">
+            Saina Nehwal (pronunciation  (help·info); born 17 March 1990) is an Indian professional badminton player. A former world no. 1, she has won 24 international titles, which includes ten Superseries titles. Although she reached the world's 2nd in 2009, it was only in 2015 that she was able to attain the world no. 1 ranking, thereby becoming the only female player from India and overall the second Indian player after Prakash Padukone to achieve this feat.[8]has represented India three times in the Olympics, winning a bronze medal in her second appearance at the London 2012 <br>
+
+Nehwal has achieved several milestones in badminton for India. She is the only Indian to have won at least one medal in every BWF major individual event, namely the Olympics, the BWF World Championships, and the BWF World Junior Championships. She is the first Indian badminton player to have won an Olympic medal, the first Indian to have reached the final of the BWF World Championships, along with being the only Indian to have won the BWF World Junior Championships In 2006, Nehwal became the first Indian female and the youngest Asian to win a 4-star tournament. She also has the distinction of being the first Indian to win a Super Series title. In the 2014 Uber Cup, she captained the Indian team and remained undefeated, helping India to win bronze medal. It was India's first medal in any BWF major team event.[14] Nehwal became the first Indian to win two singles gold medals (2010 and 2018) in Commonwealth Games.
+        </p>
+        <img class="sportspersons" src="./images/sainanehwal.jpg" alt="">
+    </div>
+    <div>
+        <h1 class="sportsperson-name"> PV sindhu</h1>
+        <p class="achievements">Pusarla Venkata Sindhu (born 5 July 1995) is an Indian badminton player. Considered one of India's most successful sportspersons, Sindhu has won medals at various tournaments such as the Olympics and on the BWF circuit, including a gold at the 2019 World Championships. She is the first and only Indian to become the badminton world champion and only the second individual athlete from India to win two consecutive medals at the Olympic Games. She rose to a career-high world ranking of no. 2 in April 2017
+            <br>
+
+            Sindhu broke into the top 20 of the BWF World Rankings in September 2012, at the age of 17.[8] She has won a total of five medals at the BWF World Championships and is just the second woman after China's Zhang Ning ever to win five or more singles medals in the competition. She represented India at the 2016 Summer Olympics (Rio), where she became the first Indian badminton player to reach the Olympic final. She won the silver medal after losing out to Spain's Carolina Marin.[9] She made her second consecutive Olympic appearance at the 2020 Summer Olympics (Tokyo) and won a bronze medal, becoming the first-ever Indian woman to win two Olympic medals</p>
+        <img class="sportspersons" src="./images/PVSindhu.jpg" alt=""></div>
+    <div>
+        <h1 class="sportsperson-name"> Ronaldo</h1>
+        <p class="achievements"> 
+            Cristiano Ronaldo dos Santos Aveiro GOIH ComM born 5 February 1985) is a Portuguese professional footballer who plays as a forward for Premier League club Manchester United and captains the Portugal national team. Widely regarded as one of the greatest players of all time, Ronaldo has won five Ballon d'Or awards[note 3] and four European Golden Shoes, the most by a European player. He has won 32 trophies in his career, including seven league titles, five UEFA Champions <br> Leagues, and the UEFA European Championship. Ronaldo holds the records for most appearances (183), goals (140), and assists (42) in the Champions League, goals in the European Championship (14), international goals (117), and international appearances by a European (189). He is one of the few players to have made over 1,100 professional career appearances, and has scored over 800 official senior career goals for club and country.
+        </p>
+
+        <img class="sportspersons" src="./images/ronaldo.webp" alt=""></div>
+    <div>
+        <h1 class="sportsperson-name">Messi </h1>
+        <p class="achievements">
+            Lionel Andrés Messi[note 1] (Spanish  (listen); born 24 June 1987), also known as Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team. Widely regarded as one of the greatest players of all time, Messi has won a record seven Ballon d'Or awards,[note 2] a record six European Golden Shoes, and in 2020 was named to the Ballon d'Or Dream Team. Until leaving the club in 2021, he had spent his entire professional career with Barcelona, where he won a club-record 35 trophies, including ten La Liga titles, seven Copa del Rey titles and four UEFA Champions Leagues. A prolific goalscorer and creative playmaker, Messi holds the records for most goals in La Liga (474), a La Liga and European league season (50), most hat-tricks in La Liga (36) and the UEFA Champions League (8), and most assists in La Liga (192), a La Liga season (21) and the Copa América (17). He also holds the record for most international goals by a South American male (86). Messi has scored over 750 senior career goals for club and country, and has the most goals by a player for a single club.
+        </p>
+
+        <img class="sportspersons" src="./images/messi.jpg" alt=""></div>
+    <div>
+        <h1 class="sportsperson-name">Sandeep Nerwal</h1>
+        <p class="achievements">Sandeep Narwal is one of well known names in Indian Kabaddi. Sandeep was born on 5 April 1993. He hails from Sonepat, Haryana. With an amazing built and a height of 180 cm Sandeep has the physique of a proper Kabaddi player. He will play for U Mumba in the Pro Kabaddi 2019 after he was bought for a sum of Rs. 89 Lakhs.
+
+        </p>
+
+        <img class="sportspersons" src="./images/sandeep.jpg" alt=""></div>
+    <div>
+        <h1 class="sportsperson-name">Nivas huda</h1>
+        <p class="achievements">
+            Deepak Ram Niwas Hooda (born 10 June 1994) is an Indian professional Kabaddi player and the captain of India national kabaddi team.He was part of the Indian team which won gold medal at the 2016 South Asian Games.[5] He has also featured in all the seasons of the Pro Kabaddi League.[6] Deepak is regarded as one of the best all rounder in the Pro kabaddi league history
+        </p>
+
+        <img class="sportspersons" src="./images/nivas huda.jpg" alt=""></div>
+    <div>
+        <h1 class="sportsperson-name">viswanathan-anand</h1>
+        <p class="achievements">
+            Viswanathan "Vishy" Anand (born 11 December 1969) is an Indian chess grandmaster and a five-time world chess champion.[2] He became the first grandmaster from India in 1988, and is one of the few players to have surpassed an Elo rating of 2800, a feat he first achieved in 2006.[3] In 2022, he was elected the deputy president of FIDE.[4][5]
+
+Anand defeated Alexei Shirov in a six-game match to win the 2000 FIDE World Chess Championship, a title he held until 2002. He became the undisputed world champion in 2007, and defended his title against Vladimir Kramnik in 2008, Veselin Topalov in 2010, and Boris Gelfand in 2012.[6] In 2013, he lost the title to challenger Magnus Carlsen, and he lost a rematch to Carlsen in 2014 after winning the 2014 Candidates Tournament
+        </p>
+
+        <img class="sportspersons" src="./images/viswanathan-anand.jpg" alt=""></div>
+    <div>
+        <h1 class="sportsperson-name">pragaanandhaa</h1>
+        <p class="achievements">
+            Rameshbabu "Pragg" Praggnanandhaa[a] (born 10 August 2005) is an Indian chess grandmaster. A chess prodigy, he earned the international master title at the age of 10, the youngest at the time to do so, and the grandmaster title at age 12, the second-youngest at the time to do so. On 22 February 2022, at the age of 16, he became the youngest player ever to defeat current world champion Magnus Carlsen, when he beat Carlsen in a rapid game at the Airthings Masters Rapid Chess Tournamen
+        </p>
+
+        <img class="sportspersons" src="./images/pragaanandhaa.webp" alt=""></div>
+   </div>
     
-</body>
+</body> 
 </html>
